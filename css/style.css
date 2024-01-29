@@ -1,17 +1,25 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "/partials/_body.scss";
- *   |         ^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss\style.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"../partials/_body.scss\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 1:9  root stylesheet";
+.body {
+  background-color: #ffffff;
+  color: rgb(43, 21, 21);
+  padding: 10px;
 }
+
+.card-shadow {
+  box-shadow: 0px 6px 59px 15px rgba(22, 70, 230, 0.44) inset;
+  -webkit-box-shadow: 0px 6px 59px 15px rgba(22, 70, 230, 0.44) inset;
+  -moz-box-shadow: 0px 6px 59px 15px rgba(22, 70, 230, 0.44) inset;
+  padding: 35px;
+}
+
+.section-html {
+  background: rgb(242, 242, 246);
+  background: radial-gradient(circle, rgb(242, 242, 246) 0%, rgb(198, 198, 255) 50%, rgb(255, 255, 255) 100%);
+  color: rgb(41, 58, 151);
+  padding: 10px;
+}
+
+header h1 {
+  color: aquamarine;
+}
+
+/*# sourceMappingURL=style.css.map */

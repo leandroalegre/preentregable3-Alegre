@@ -1,0 +1,11 @@
+@mixin fuente_titulos ($size, $family, $grosor, $color){
+    font-size: $size;
+    font-family: $family;
+    font-weight: $grosor;
+    color: $color;
+}
+@mixin flex($flex, $justify, $align-item){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align-item;
+}
