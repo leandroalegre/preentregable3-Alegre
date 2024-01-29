@@ -1,8 +1,38 @@
 @import "partials/_cards.scss";
 @import "partials/_footer.scss";
+@import "partials/_buttons.scss";
+@import "partials/_mixin.scss";
+
 
 header{
     h1{
         color: aquamarine;
     }
 }
+.titulo {
+    @include fuente_titulos(50px, 'Arial, sans-serif', bold, hwb(231 22% 31%), left,20px);
+  }
+  
+.caja-flex {
+    @include flex(flex, space-between, center, 20px);
+    transition: 1s;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+.imagen-animada {
+    width: 100%;
+    max-width: 500px; // Establece el ancho máximo deseado
+    margin:10% 25%; // Centra la imagen horizontalmente
+    transition: transform 0.5s ease; // Transición en la propiedad 'transform'
+  }
+  
+  .imagen-animada:hover {
+    transform: scale(1.1); // Escala la imagen al 110% en el hover
+  }
+  
+  .container {
+    text-align: right;
+    margin-top: 20px;
+  }

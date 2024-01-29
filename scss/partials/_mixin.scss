@@ -1,11 +1,14 @@
-@mixin fuente_titulos ($size, $family, $grosor, $color){
+@mixin fuente_titulos ($size, $family, $grosor, $color, $align,$padding){
     font-size: $size;
     font-family: $family;
     font-weight: $grosor;
     color: $color;
+    text-align: $align;
+    padding: $padding;
 }
-@mixin flex($flex, $justify, $align-item){
+@mixin flex($flex, $justify, $align-item, $padding){
     display: $flex;
     justify-content: $justify;
     align-items: $align-item;
+    padding: $padding;
 }

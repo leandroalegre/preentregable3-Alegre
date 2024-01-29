@@ -1,9 +1,81 @@
 .body {
-  background-color: #db34d3;
+  background-color: #ffffff;
   color: rgb(43, 21, 21);
-  padding: 10px;
+  padding: 50px;
+}
+
+.card-shadow {
+  box-shadow: 0px 6px 59px 15px rgba(22, 70, 230, 0.44) inset;
+  -webkit-box-shadow: 0px 6px 59px 15px rgba(22, 70, 230, 0.44) inset;
+  -moz-box-shadow: 0px 6px 59px 15px rgba(22, 70, 230, 0.44) inset;
+  color: rgb(27, 52, 190);
+  padding: 35px;
+}
+
+.section-html {
+  background: rgb(242, 242, 246);
+  background: radial-gradient(circle, rgb(242, 242, 246) 0%, rgb(198, 198, 255) 50%, rgb(255, 255, 255) 100%);
+  color: rgb(6, 14, 61);
+  padding: 30px;
+}
+
+.container {
+  text-align: right;
+  margin-top: 65px;
+  padding-left: 20px;
+}
+
+.boton-regreso {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+.boton-regreso:hover {
+  background-color: #e6e6e6;
 }
 
 header h1 {
   color: aquamarine;
+}
+
+.titulo {
+  font-size: 50px;
+  font-family: "Arial, sans-serif";
+  font-weight: bold;
+  color: hwb(231 22% 31%);
+  text-align: left;
+  padding: 20px;
+}
+
+.caja-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  transition: 1s;
+}
+.caja-flex:hover {
+  transform: scale(1.2);
+}
+
+.imagen-animada {
+  width: 100%;
+  max-width: 500px;
+  margin: 10% 25%;
+  transition: transform 0.5s ease;
+}
+
+.imagen-animada:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  text-align: right;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
