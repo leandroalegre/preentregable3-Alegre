@@ -10,7 +10,7 @@ header{
     }
 }
 .titulo {
-    @include fuente_titulos(50px, 'Arial, sans-serif', bold, hwb(231 22% 31%), left,20px);
+    @include fuente_titulos(50px, 'Arial, sans-serif', 'bold', hwb(231 22% 31%), left,20px);
   }
   
 .caja-flex {

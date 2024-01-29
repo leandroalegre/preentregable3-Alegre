@@ -1,4 +1,4 @@
-@mixin fuente_titulos ($size, $family, $grosor, $color, $align,$padding){
+@mixin fuente_titulos ($size, $family, $grosor, $color, $align, $padding){
     font-size: $size;
     font-family: $family;
     font-weight: $grosor;

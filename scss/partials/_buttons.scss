@@ -13,7 +13,7 @@
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s ease;
-        text-decoration: none;;
+        text-decoration: none;
       
         &:hover {
           background-color: darken($primary-color, 10%); // Oscurecer el color al pasar el ratón
